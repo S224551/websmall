@@ -47,6 +47,7 @@ function AlbumPicker() {
       releases: { title: string }[];
     };
     const { releases } = mbResult;
+    console.log(mbResult);
     setAlbums(releases.map(({ title }) => title));
   }
   return (
